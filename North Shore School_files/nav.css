@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.nav
+	body,td,th {
+	font-family: Lato, sans-serif;
+}
+a:hover {
+	color: #3A090A;
+}
+    </style>
