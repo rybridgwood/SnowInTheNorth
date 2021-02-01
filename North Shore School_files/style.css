@@ -2265,7 +2265,7 @@ img {
 .hero-style-1 .slide:before, .hero-style-2 .slide:before, .hero-style-3 .slide:before {
   content: "";
   background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 180%;
   height: 100%;
   position: absolute;
   left: 0;
@@ -5901,7 +5901,14 @@ div#navbar {
 /* customizable snowflake styling */
 .snowflake {
   color: #fff;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+
+.snowflake:hover{
+  color: rgb(139, 221, 246);
+  font-size: 3.2em;
   font-family: Arial;
   text-shadow: 0 0 1px #000;
 }
